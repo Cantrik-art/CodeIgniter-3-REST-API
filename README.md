@@ -19,7 +19,7 @@ composer require chriskacerguis/codeigniter-restserver
 ```
 Pastikan autoload Composer diaktifkan dalam `application/config/config.php`:
 ```php
-$config['composer_autoload'] = TRUE;
+$config['composer_autoload'] = FCPATH . 'vendor/autoload.php';
 ```
 
 #### b) Jika Tanpa Composer (Manual Install)
